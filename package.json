@@ -2,16 +2,15 @@
   "name": "golf-game-server",
   "version": "1.0.0",
   "private": true,
-  "main": "index.ts",
+  "main": "server.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "echo 'No build needed'",
-    "start": "node --import tsx index.ts"
+    "build": "npx tsx index.ts --version 2>/dev/null; echo build_done",
+    "start": "node server.js"
   },
   "dependencies": {
-    "socket.io": "^4.8.1",
-    "tsx": "^4.7.0"
+    "socket.io": "^4.8.1"
   }
 }
