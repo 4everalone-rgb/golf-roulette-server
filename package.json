@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "main": "index.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "echo 'No build needed'",
-    "start": "npx tsx index.ts"
+    "start": "node --import tsx index.ts"
   },
   "dependencies": {
     "socket.io": "^4.8.1",
