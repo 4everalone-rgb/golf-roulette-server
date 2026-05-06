@@ -1,0 +1,14 @@
+{
+  "name": "golf-game-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "build": "echo 'No build needed'",
+    "start": "npx tsx index.ts"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "tsx": "^4.7.0"
+  }
+}
