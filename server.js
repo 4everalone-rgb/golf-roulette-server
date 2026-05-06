@@ -1,4 +1,4 @@
-// ../home/z/my-project/download/golf-roulette-final/game-server/index.ts
+// download/golf-roulette-final/game-server/index.ts
 import { createServer } from "http";
 import { Server } from "socket.io";
 var httpServer = createServer();
@@ -306,7 +306,7 @@ io.on("connection", (socket) => {
           });
         }
       }
-    }, 3e4);
+    }, 3e5);
   });
   socket.on("error", (error) => {
     console.error(`[GOLF] Socket error (${socket.id}):`, error);

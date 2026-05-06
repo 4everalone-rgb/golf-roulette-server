@@ -382,7 +382,7 @@ io.on('connection', (socket) => {
           })
         }
       }
-    }, 30000)
+    }, 300000)
   })
 
   socket.on('error', (error) => {
